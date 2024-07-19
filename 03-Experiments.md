@@ -44,7 +44,7 @@
 
 使用指令 `att` 可以調整鉬片或銅片的數量。
 
-<img src="./imgs/41-attn.png" width="800" />
+<img src="./imgs/41-attn.png" width="700" />
 
     > att 0
     > att 1

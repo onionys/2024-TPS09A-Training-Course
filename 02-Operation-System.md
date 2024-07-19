@@ -20,7 +20,7 @@ Linux : Rocky Linux 8.4
 
 <img src="./imgs/22-win-key.gif" width="400" />
 
-<img src="./imgs/34-screen-shot.png" width="800" />
+<img src="./imgs/34-screen-shot.png" width="700" />
 
 ## Start Menu
 
@@ -56,7 +56,7 @@ Linux : Rocky Linux 8.4
 
 <img src="./imgs/28-file-manager.png" width="250" /><br>
 
-<img src="./imgs/35-file-manager.png" width="800" />
+<img src="./imgs/35-file-manager.png" width="700" />
 
 ### Text Editor
 
@@ -64,7 +64,7 @@ Text Editor 是一個用來編輯文字檔案的程式，可以用來編輯 Macr
 因為可能造成檔案損毀。
 
 <img src="./imgs/29-text-editor.png" width="250" /><br>
-<img src="./imgs/35-text-editor.png" width="800" />
+<img src="./imgs/35-text-editor.png" width="700" />
 
 
 ---
@@ -74,7 +74,7 @@ Text Editor 是一個用來編輯文字檔案的程式，可以用來編輯 Macr
 
 TPS09A 使用 CSS SPEC FourC 繞射儀操作系統，使用者可以透過指令、函數、指令、變數等功能來控制繞射儀的運作。
 
-<img src="./imgs/23-css-spec-web.png" width="800" />
+<img src="./imgs/23-css-spec-web.png" width="700" />
 
     https://www.css-spec.com/
 
@@ -89,21 +89,21 @@ Features
 
 實驗進行時，電腦桌面上看起來大概是這樣：
 
-<img src="./imgs/24-screen-shot.png" width="800"/>
+<img src="./imgs/24-screen-shot.png" width="700"/>
 
 會有一個 Terminal Emulator 視窗，用來執行 `fourc` 系統。
 
-<img src="./imgs/19-fourc.png" width="800" />
+<img src="./imgs/19-fourc.png" width="700" />
 
 `fourc` 在進行實驗時，會有一個 GUI 介面，用來顯示實驗數據。
 
-<img src="./imgs/20-fourc-splot.png" width="800" />
+<img src="./imgs/20-fourc-splot.png" width="700" />
 
 ### DATAFILE : `fourc` 的實驗數據檔案
 
 `fourc` 的實驗數據檔案是一個文字檔案(Text File)，用來記錄實驗數據。內容包含了實驗數據、所有馬達數值、空間參數等資訊，並以特定的格式儲存。
 
-<img src="./imgs/21-fourc-datafile.png" width="800" />
+<img src="./imgs/21-fourc-datafile.png" width="700" />
 
 ### C-like Language
 
@@ -180,7 +180,7 @@ for loop
 - 宣告變數時不要用到已經存在的變數名稱
 - 使用指令`syms` 查詢目前已經存在的變數
 
-<img src="./imgs/25-syms.png" width="800" /><br>
+<img src="./imgs/25-syms.png" width="700" /><br>
 
 - 使用指令`do <Macro 檔名>` 執行 Macro
 
@@ -200,5 +200,5 @@ Official Website
 
 ### CA (Channel Access)
 
-<img src="./imgs/17-EPICS.jpg" width="800" />
+<img src="./imgs/17-EPICS.jpg" width="700" />
 
