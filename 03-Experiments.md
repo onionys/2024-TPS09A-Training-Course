@@ -274,6 +274,8 @@
 
 3. 校正 th 和 chi 
 
+
+```
     移動 th 到 (th_1 + th_2) / 2, chi 到 (chi_1 + chi_2) / 2。
 
     > umv th (th_1+th_2)/2
@@ -284,6 +286,7 @@
 
     > set th tth/2
     > set chi -90
+```
 
 此時完成 th 和 chi 的校正。之後 th 和 chi 的讀值就是正確的角度了。
 在接下來的實驗中 `tth`、 `th`、 `chi` 不建議再使用 `set` 指令進行重設。    
