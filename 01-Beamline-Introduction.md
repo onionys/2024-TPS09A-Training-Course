@@ -75,7 +75,7 @@ HRM 對溫度的穩定性要求非常高，如果 HRM 的溫度不穩定，會�
 
 TPS09A 使用 Huber X 繞射儀系統。該系統為一個六軸的繞射儀，並在 detector 前方裝有一組小型的繞射環可以作為 Analyzer 使用。
 
-<img src="./imgs/07-Diffractometer.jpeg" width="700" /><br>
+<img src="./imgs/07-diffractometer.jpeg" width="700" /><br>
 
 <img src="./imgs/08-diffractometer-2.png" width="700" />
 
