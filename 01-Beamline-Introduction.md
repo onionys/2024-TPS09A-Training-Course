@@ -177,3 +177,26 @@ TPS09A 使用了如下圖的 slit 系統。該 slit 系統由上、下、左、�
 <img src="./imgs/42-DCS-500-01.jpg" width="400" />
 
 <img src="./imgs/43-DCS-500-04.jpg" width="400" />
+
+# In-House XRD System
+
+In-house XRD 系統位於研光大樓 L107 實驗室。該實驗室有門禁需申請才能刷過。用戶需經過上機考核通過後才能申請使用。
+
+<img src="./imgs/51-in-house.JPG" width="800" />
+
+In-house XRD 使用 RigaKu 系統作為光源，使用 `Cu Kα 1.54056 Å`。用戶需會自行操作，開關機、升降電壓電流。下圖為操作面板。
+
+<img src="./imgs/52-in-house-X-ray.JPG" width="800" />
+
+X-ray 出光口處會經過一個 Ge 晶體進行濾波。下圖為放置 Ge 晶體的容器。
+
+<img src="./imgs/53-in-house-X-ray.JPG" width="800" />
+
+下圖為 4C 繞射儀。
+
+<img src="./imgs/54-in-house-4C.JPG" width="800" />
+
+in-house XRD 使用不同片數的銅箔組合作為衰減片，以達到不同的衰減倍率。
+
+<img src="./imgs/55-in-house-det-attdisk.JPG" width="800" />
+

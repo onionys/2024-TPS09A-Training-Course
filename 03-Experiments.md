@@ -767,7 +767,9 @@ ex: 移動 tth 到 2˚ ， th 到 1˚。
 <br>
 <br>
 <br>
+
 ----
+
 # cryostat 操作手冊 
 
 cryostat 功能啟動後，會有兩個溫度 Sensor。會在每次 `ct` 或 `scan` 的時候將之分別顯示在 `TempA` 和 `TempB`。
@@ -823,7 +825,9 @@ cryostat 功能啟動後，會有兩個溫度 Sensor。會在每次 `ct` 或 `sc
 <br>
 <br>
 <br>
+
 ----
+
 # DCS500 操作手冊 
 
 DCS500 功能啟動後，有一個溫度 Sensor。會在每次 `ct` 或 `scan` 的時候將之顯示在 `TempA`。
@@ -876,7 +880,9 @@ DCS500 功能啟動後，有一個溫度 Sensor。會在每次 `ct` 或 `scan` �
 <br>
 <br>
 <br>
+
 ----
+
 # EIGER 操作手冊 
 
 使用 EIGER 的一些注意事項:
