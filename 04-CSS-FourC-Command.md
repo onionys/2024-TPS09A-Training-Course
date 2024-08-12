@@ -45,17 +45,24 @@ mesh : 二維掃描, 絕對位置
 
 ## 常用馬達名稱 List
 
-    tth
-    th
-    chi
-    phi
+    TPS09A         In-House      作用
+    -------------------------------
+    tth            tth
+    th             th
+    chi            chi
+    phi            phi
 
-    phiz 
-    ftx
-    fty
+    phiz           str           樣品z軸
+    ftx                          樣品載台x軸
+    fty                          樣品載台y軸
+    farcx                        樣品載台x傾斜角度
+    farcy                        樣品載台y傾斜角度
 
-    farcx 
-    farcy
+    xtran                        cryostat 樣品x軸
+    ytran                        cryostat 樣品y軸
+    ztran                        cryostat 樣品z軸
+
+
 
 # 倒晶格空間計算系統指令
 
