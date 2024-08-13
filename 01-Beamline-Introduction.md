@@ -55,7 +55,7 @@ reference : `https://core.ac.uk/download/pdf/193744428.pdf`
 HFM 是一個曲面鏡，上面會使用特定材料進行鍍膜。該鍍膜會將特定波長的 X-ray 反射出來，並讓其較高波長的 X-ray 通過。
 TPS09A 使用的 HFM 鍍膜有三種不同的材料: `Rh`, `Si`, `Pt` ，可以互相切換以支援不同波長的 X-ray。其 X-ray 的能量分佈如下圖所示。
 
-<img src="./imgs/48-HFM-energy.png" width="700" />
+<img src="./imgs/48-HFM-energy.jpeg" width="700" />
 
 
 

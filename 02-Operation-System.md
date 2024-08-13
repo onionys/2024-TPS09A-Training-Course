@@ -74,7 +74,7 @@ Text Editor 是一個用來編輯文字檔案的程式，可以用來編輯 Macr
 
 TPS09A 使用 CSS SPEC FourC 繞射儀操作系統，使用者可以透過指令、函數、指令、變數等功能來控制繞射儀的運作。
 
-<img src="./imgs/23-css-spec-web.png" width="700" />
+<img src="./imgs/23-css-spec-web.jpeg" width="700" />
 
     https://www.css-spec.com/
 
