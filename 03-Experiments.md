@@ -890,6 +890,8 @@ DCS500 功能啟動後，有一個溫度 Sensor。會在每次 `ct` 或 `scan` �
     1. EIGER 的 ROI 1, 2, 3, 4 會對應到 PIL200k, PIL200kR2, PIL200kR3, PIL200kR4 的 detector 。
     2. EIGER pixel 的大小是 75 um x 75 um。
     3. EIGER 每個 pixel 的 intensity 讀值不要超過 60,000 counts
+    4. 每張 EIGER 的影像資料大小約為 4.2 MB 左右。建議帶 USB HDD 之類的東西過來 download 。
+    5. EIGER 的影像格式會以 tiff 和 hdf5 格式為主。建議使用 python3 程式碼處理。
 
 開啟 EIGER 功能
 
@@ -928,6 +930,32 @@ DCS500 功能啟動後，有一個溫度 Sensor。會在每次 `ct` 或 `scan` �
 <img src="./imgs/50-eiger_img.png" width="800">
 
 
+下面為簡單的 `python3` 程式碼，可以將 EIGER 的影像資料取 log 並且使用 color map "viridis" 來顯示。
+
+```python
+    import sys, pathlib
+    import numpy as np
+    import tifffile
+    import matplotlib.pyplot as plt
+    
+    fn = 'data.tiff'
+    
+    # --- get numpy 2d array from tiff file -----
+    array_data = tifffile.imread(fn).astype('int32')
+    
+    
+    # --- plot linear scale ---
+    # plt.imshow(array_data, cmap='viridis')
+    
+    # --- plot log scale ---
+    plt.imshow(np.log(array_data), cmap='viridis')
+    plt.show()
+```
+
+使用 EIGER 系統時，可以設定其中四個 ROI 的位置和大小。這樣可以只讀取感興趣的區域，減少資料量。
+
+下面為執行 `ct` 指令後，EIGER 的四個 ROI 回傳數據 (ROI summation) 的存放位置。 
+
 
     1984.FOURC> ct
     
@@ -957,3 +985,4 @@ DCS500 功能啟動後，有一個溫度 Sensor。會在每次 `ct` 或 `scan` �
            TempA = 299.92 (299.92/s)
            TempB = 298.1 (298.1/s)
 
+使用 E
