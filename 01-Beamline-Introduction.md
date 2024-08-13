@@ -137,7 +137,7 @@ TPS09A 使用了如下圖的 slit 系統。該 slit 系統由上、下、左、�
 
 在 detector 的上遊沿線亦設置了兩組 slit ，主要用來過濾掉不需要的散射光。
 
-<img src="./imgs/31-slit.png" width="400" />
+<img src="./imgs/31-slit.jpeg" width="400" />
 
 
 
