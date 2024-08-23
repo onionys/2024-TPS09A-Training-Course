@@ -92,7 +92,6 @@ In addition, during scans with a large variation of diffraction intensity, we ca
     DET UPPER LIM:  30000    ---> When the intensity exceeds this value, add attenuator foils automatically
     DET LOWER LIM:  1000     ---> When the intensity lower this value, decrease attenuator foils automatically
 
-系統內存有衰減片的數量和衰減倍率的對應表，可以使用下面的指令 `attDisk` 查看。
 
 The system keeps a relative attenuator factor table of the attenuator foils. You can use the command `attDisk` to view this table.
 
@@ -133,9 +132,6 @@ The attenuator factor of `Attn[0]` is `1`, which represents no attenuation (no a
 #### Calibrating the Attenuator Factor
 
 Usually, we need to calibrate the attenuation factor of the attenuator foils.
-
-假設要量測 `Attn[6]` (第六片)的相對倍率(相對於上一片; 第五片 `Attn[5]`)。
-實作上，我們會找到一個馬達位置在衰減片數為 6 的時候其繞射強度約在 1000 ~ 5000 cts/s 的位置:
 
 Suppose we want to measure the relative attenuation factor of `Attn[6]` (the sixth foil) relative to the previous foil, `Attn[5]`.
 
@@ -402,8 +398,7 @@ and use `farcx` and `facry` to correct the orientation of the sample.
     !!ATTENTION!! When phi = 90˚, 270˚ corresponds to the direction of farcx.
 ```
 
-此時可以順便設定 pa 系統的 or0
-Now you can set the or0 of the pa system.
+Now you can set the `or0` of the PA system.
 
 
 ```
